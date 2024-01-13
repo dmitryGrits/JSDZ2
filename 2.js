@@ -6,8 +6,7 @@
 */
 
 let test = confirm("У вас много денег?");
-if (test === true) {
-  console.log("Скоро будем у вас ;)");
-} else {
-  console.log("До свидания.");
-}
+test === true ?
+console.log("Скоро будем у вас ;)") :
+console.log("До свидания.");
+
